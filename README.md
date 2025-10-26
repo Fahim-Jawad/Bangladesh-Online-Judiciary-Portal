@@ -3,5 +3,5 @@ Stack
 frontend: React, TailwindCSS
 backend: Firebase
 
-feature
+features
 user roll access, downloadable contents, smooth file tracking system 
