@@ -1,0 +1,363 @@
+.container {
+  margin: auto;
+  width: 1320px;
+}
+
+.BOJP {
+  height: 130px;
+  width: 100%;
+  background: #fbe252;
+  position: relative;
+}
+
+.flagBoxGreen {
+  position: absolute;
+  height: 120px;
+  width: 200px;
+  background-color: green;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.flagCircleRed {
+  justify-content: center;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: 5px;
+  margin-left: 45px;
+  position: relative;
+}
+
+.flagImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  left: 19%;
+}
+
+.BOJP h1 {
+  font-size: 62px;
+  text-align: right;
+  background: linear-gradient(
+    to right,
+    rgba(28, 92, 26, 100),
+    rgba(28, 92, 26, 100),
+    rgba(241, 21, 21, 100),
+    rgba(30, 88, 28, 100)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.systemBackground {
+  height: 900px;
+  width: 100%;
+  background: rgba(251, 226, 82, 0.57);
+  position: relative;
+}
+
+.systemBackgroundImage {
+  height: 700px;
+  width: 1320px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+.loginAsPanel {
+  height: 440px;
+  width: 500px;
+  background: rgba(215, 205, 151, 0.55);
+  margin-right: 100px;
+  margin-top: 150px;
+  position: relative;
+}
+
+.dropdownUser {
+  margin-top: 50px;
+  font-size: 50px !important;
+  margin-left: 130px;
+}
+
+.noLoginAs {
+  margin-left: 135px;
+  color: red;
+  font-size: 14px;
+}
+
+.userEnterbutton {
+  margin: 50px 200px;
+  height: 35px;
+  width: 90px;
+  color: black;
+  border-radius: 15%;
+  background-color: #6591d2;
+}
+
+.createAccountPanel {
+  height: 440px;
+  width: 500px;
+  background: rgba(215, 205, 151, 0.67);
+  margin-top: 150px;
+  margin-left: 70px;
+  position: relative;
+}
+
+.createAccount {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.loginAsPanel h1 {
+  font-size: 32px;
+  text-align: center;
+  color: black;
+}
+
+.createAccountPanel h1 {
+  font-size: 32px;
+  text-align: center;
+  color: black;
+}
+
+.systemHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.createAccount {
+  font-size: 25px;
+  color: #252525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.createCourtAdmin {
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  border: 1px solid #6591d2;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 0px 20px;
+  font-size: 18px;
+  color: #6591d2 !important;
+}
+
+.createGeneralAdmin {
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  margin-top: 40px;
+  border: 1px solid #6591d2;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-size: 18px;
+  color: #6591d2 !important;
+}
+
+.createOfficer {
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  margin-top: 50px;
+  border: 1px solid #6591d2;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-size: 18px;
+  color: #6591d2 !important;
+}
+
+.accountcreatesystem {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 20px !important;
+  text-align: center;
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+h4{
+  font-size: 25px !important;
+  color: black !important;
+  font-weight: 500 !important;
+}
+
+.accountcreateformbackground {
+  height: 75% !important;
+  width: 100%;
+  background: rgba(215, 205, 151, 0.55);
+  margin-top: 40px;
+}
+
+.systemLoginBackground {
+  height: 40%;
+  width: 70%;
+  background: rgba(215, 205, 151, 0.55);
+  margin-top: 40px;
+  margin-left: 240px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.systemLoginForm {
+  position: absolute;
+  top: 50px;
+  left: 360px;
+  position: relative;
+}
+
+.systemLoginButton {
+  margin: 50px 100px;
+  height: 35px;
+  width: 90px;
+  color: black;
+  border-radius: 15%;
+  background-color: #6591d2;
+}
+
+.leftForm {
+  margin-top: 20px;
+}
+
+.locationDropDowns{
+  margin-top: 20px;
+}
+
+.right-column {
+  margin-left: 100px;
+}
+
+.rightcoloumHeading {
+  margin-left: 100px;
+}
+
+.passwordForm {
+  margin-top: 20px;
+  position: relative;
+}
+
+.rightForm {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+/* .photopreview {
+  margin-top: 50px;
+  height: 150px;
+  width: 150px;
+  border: 3px solid #6591d2;
+}
+
+.pictureUploadForm{
+  margin-top: 55px;
+}
+
+.uploadbutton {
+  height: 35px;
+  width: 90px;
+  color: black;
+  border-radius: 15%;
+  background-color: #6591d2;
+} */
+
+.createCAAccountButton {
+  height: 50px;
+  width: 150px;
+  margin-left: 60px;
+  color: black;
+  border-radius: 15%;
+  background-color: #6591d2;
+}
+
+.createGAAccountButton {
+  height: 50px;
+  width: 150px;
+  margin-left: 60px;
+  color: black;
+  border-radius: 15%;
+  background-color: #6591d2;
+}
+
+.createOfficerAccountButton {
+  height: 50px;
+  width: 150px;
+  margin-left: 60px;
+  color: black;
+  border-radius: 15%;
+  background-color: #6591d2;
+}
+
+.adminerrtext {
+  position: absolute;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  margin-top: 2.5px;
+  width: 290px;
+}
+
+.passwordtext {
+  margin: auto;
+  width: 500px;
+}
+
+.passwordEyePassword {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+
+.passwordEyeConfirmPassword {
+  position: absolute;
+  top: 71px;
+  left: 355px;
+}
+
+.passwordEyeLogin{
+position: absolute;
+top: 120px;
+left: 275px;
+}
+
+.firebaseregsuccessfulltext{
+  position: relative;
+  position: absolute;
+  font-size: 8px;
+  background-color: greenyellow;
+  color: #6591d2;
+  margin-top: 4px;
+  height: 30px;
+  width: 400px;
+}
+
+.addNewCaseButton{
+    height: 50px;
+    width: 150px;
+    margin-left: 250px;
+    color: black;
+    border-radius: 15%;
+    background-color: #6591d2;
+}
+
+.caseerrtext{
+  position: absolute;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  margin-top: 45px;
+  margin-left: 183px;
+  width: 290px;
+}
